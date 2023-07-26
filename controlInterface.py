@@ -174,7 +174,7 @@ class App:
     def r_turn_button_command(self):
         print("Right turn")
 
-    def send_message(message):
+    def send_message(self, message):
         mes = bytes(message, 'ascii')
         sock.sendto(mes, (UDP_IP, UDP_PORT))
 
